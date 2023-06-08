@@ -15,6 +15,7 @@ import com.example.newsly.Adapter.NewsAdapter
 import com.example.newsly.MainActivity
 import com.example.newsly.Model.News
 import com.example.newsly.R
+import com.example.newsly.StackLayoutManager
 import com.example.newsly.Util.Resource
 import com.example.newsly.databinding.FragmentBreakingNewsBinding
 import kotlinx.android.synthetic.main.fragment_breaking_news.rvBreakingNews
@@ -115,8 +116,8 @@ class BreakingNewsFragment: Fragment(R.layout.fragment_breaking_news) {
         newsAdapter=NewsAdapter()
         binding.rvBreakingNews.apply {
             adapter=newsAdapter
-            layoutManager=LinearLayoutManager(activity)
-            addOnScrollListener(this@BreakingNewsFragment.scrollListener)
+            layoutManager=StackLayoutManager(horizontalLayout = false)
+//            addOnScrollListener(this@BreakingNewsFragment.scrollListener)
         }
     }
 }
