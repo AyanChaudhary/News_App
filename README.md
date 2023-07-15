@@ -32,8 +32,7 @@ Different tools and services used for building this application includes:
 - [Kotlin](https://kotlinlang.org/) 
 - MVVM architecture pattern
 - Navigation components
-- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) 
-- [Dagger 2](https://developer.android.com/training/dependency-injection) for dependency injection 
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
 - [Room Database](https://developer.android.com/training/data-storage/room) for saving favourite news
 - [Retrofit](https://square.github.io/retrofit/) for handling API calls
 
